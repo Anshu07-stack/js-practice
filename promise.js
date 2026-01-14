@@ -88,9 +88,12 @@ const PromiseFive = new Promise(function(resolve,reject){
 
 async function consumePromiseFive(){
    try{
+
     const response = await PromiseFive
     console.log(response);
-} catch(error){
+
+}
+ catch(error){
     console.log(error);
 }
 }
@@ -114,6 +117,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
     return response.json()
 })
 .then((data)=>{
+
     console.log(data)
+
 })
 .catch((error)=> console.log(error))

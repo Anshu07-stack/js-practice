@@ -16,6 +16,8 @@ for(const str of greetings){
     // console.log(`each char is ${str}`);
 }
 
+
+
 const a = new Map()
 
 a.set('anshu','age=21')
